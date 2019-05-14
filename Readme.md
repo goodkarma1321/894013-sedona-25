@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Anastasia Smirnova](https://up.htmlacademy.ru/htmlcss/25/user/894013).
-* Наставник: `Неизвестно`.
+* Наставник: [Мурат Баркинхоев](https://up.htmlacademy.ru/htmlcss/25/user/186857).
 
 ---
 
