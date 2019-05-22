@@ -37,20 +37,26 @@
           <p class="search-item">
             <label for="search-datecheckin">Дата заезда:</label>
             <input id="search-datecheckin" type="text" name="datecheckin" value="">
+            <button class="icon" type="button"><span class="visually-hidden">Календарь</span></button>
           </p>
           <p class="search-item">
             <label for="search-datecheckout">Дата выезда:</label>
             <input id="search-datecheckout" type="text" name="datecheckout" value="">
+            <button class="icon" type="button"><span class="visually-hidden">Календарь</span></button>
           </p>
           <p class="search-item">
             <label for="search-sumadult">Взрослые:</label>
-            <input id="search-sumadult" type="number" name="sumadult" min="1" max="8" step="1" value="2">
+            <button class="icon" type="button">-</button>
+            <input id="search-sumadult" type="text" name="sumadult" value="2">
+            <button class="icon" type="button">+</button>
           </p>
           <p class="search-item">
             <label for="search-sumchild">Дети:</label>
-            <input id="search-sumchild" type="number" name="sumchild" min="0" max="7" step="1" value="0">
+            <button class="icon" type="button">-</button>
+            <input id="search-sumchild" type="text" name="sumchild" value="0">
+            <button class="icon" type="button">+</button>
           </p>
-          <a class="button search-button" href="login.html">Найти</a>
+          <a class="button search-button" href="#">Найти</a>
         </form>
 </section>
     </main>
