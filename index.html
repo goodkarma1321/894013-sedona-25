@@ -21,7 +21,7 @@
     <main class="container">
       <h1 class="visually-hidden">Туристический городок Седона</h1>
       <section class="welocome">
-        <img src="img/welcome.png" width="459" height="353" alt="Седона">
+        <img src="img/welcome.png" width="459" height="353" alt="добро пожаловать в Седону">
         <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
       </section>
       <section class="features">
@@ -32,21 +32,40 @@
         <h2>Заинтересовались?</h2>
         <p class="search-info">Укажите предполагаемые даты поездки,
 и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <a class="button" href="hotel.html">Поиск гостиницы в Седоне</a>
-      </section>
+        <button class="button" type="button">Поиск гостиницы в Седоне</button>
+        <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="search-item">
+            <label for="search-datecheckin">Дата заезда:</label>
+            <input id="search-datecheckin" type="text" name="datecheckin" value="">
+          </p>
+          <p class="search-item">
+            <label for="search-datecheckout">Дата выезда:</label>
+            <input id="search-datecheckout" type="text" name="datecheckout" value="">
+          </p>
+          <p class="search-item">
+            <label for="search-sumadult">Взрослые:</label>
+            <input id="search-sumadult" type="number" name="sumadult" min="1" max="8" step="1" value="2">
+          </p>
+          <p class="search-item">
+            <label for="search-sumchild">Дети:</label>
+            <input id="search-sumchild" type="number" name="sumchild" min="0" max="7" step="1" value="0">
+          </p>
+          <a class="button search-button" href="login.html">Найти</a>
+        </form>
+</section>
     </main>
     <footer class="main-footer">
       <p class="hashtag">#visitsedona</p>
       <div class="footer-social">
         <ul>
-          <li><a class="social-button" href="#">Твиттер</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Ютуб</a></li>
+          <li><a class="social-button" href="#" aria-label="Твиттер Седоны">Твиттер</a></li>
+          <li><a class="social-button" href="#" aria-label="Фэйсбук Седоны">Фейсбук</a></li>
+          <li><a class="social-button" href="#" aria-label="Ютуб канал Седоны">Ютуб</a></li>
         </ul>
       </div>
       <p class="footer-copyright">
         <span>Website by</span>
-        <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">
+        <a class="button" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Сайт компании-разработчика">
             <img src="img/logo-html.svg" width="115" height="41" alt="Логотип HTMLacademy">
         </a>
       </p>
