@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #81b3d2;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #669ec0;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
+}
+
+.main-nav {
+  font-size: 14px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.welcome {
+  background-color: #2c393a;
+  background-image: url("../img/background-photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.welcome img {
+  display: block;
+  margin: 0 auto;
+}
+
+.welcome p {
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.features p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight:normal;
+}
+
+.search-head {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.search-text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight:normal;
+}
+
+.hidden-button {
+  font-size: 21px;
+  line-height: 26px;
+
+  background-color: #766357;
+  border: none;
+}
+
+.hidden-button:hover,
+.hidden-button:focus {
+  background-color: #604e43;
+}
+
+.hidden-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
+}
+
+.search-form input[type="text"] {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+.search-form input:hover {
+  background-color: #ebebeb;
+  border: 2px solid #ebebeb;
+}
+
+.search-form input:focus {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+  outline: 0;
+}
+
+.search-button {
+  font-size: 21px;
+}
+
+.main-footer {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-weight: normal;
+}
+
+.catalog ul{
+  list-style: none;
+}
+
+.hotel-info a {
+  color: #000000;
+}
+
+.hotel-info a:hover,
+.hotel-info a:focus {
+  color: #81b3d2;
+}
+
+.hotel-price p{
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+}
+
+.button-reserv {
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.button-reserv:hover,
+.button-reserv:focus {
+  background-color: #604e43;
+}
+
+.button-reserv:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
+}
+
+.raiting-number {
+  font-weight: normal;
+  line-height: 21px;
+  color: #666666;
+  background-color: #f2f2f2;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
