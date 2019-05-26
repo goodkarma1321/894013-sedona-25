@@ -166,6 +166,10 @@ a {
   font-weight: normal;
 }
 
+.current-page a{
+ color: #766357;
+}
+
 .catalog ul{
   list-style: none;
 }
