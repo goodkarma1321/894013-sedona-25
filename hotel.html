@@ -8,16 +8,18 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+    <div class="container">
     <header class="main-header">
       <nav class="main-nav">
         <a class="main-header-logo" href="index.html">
           <img src="img/logo.svg" width="140" height="72" alt="Логотип города Седона">
         </a>
-        <ul class="site-navigation">
-          <li><a href="#">Информация</a></li>
-          <li><a href="#">Фото и видео</a></li>
-          <li><a href="#">Карта штата</a></li>
-          <li class="current-page"><a>Гостиницы</a></li>
+        <ul class="navigation-list">
+          <li class="navigation-item"><a href="#">Информация</a></li>
+          <li class="navigation-item"><a href="#">Фото и видео</a></li>
+          <li class="navigation-item"><a href="#">Карта штата</a></li>
+          <li class="navigation-item current-page"><a href="hotel.html">Гостиницы</a></li>
+        </ul>
         </ul>
       </nav>
     </header>
@@ -35,11 +37,17 @@
               <h3>
                 <a href="#">Amara Resort & Spa</a>
               </h3>
-              <div class="hotel-price">
-                <p>Гостиница</p>
-                <p>от 4000 Р.</p>
+              <div class="user-info">
+                <div class="hotel-price">
+                  <p>Гостиница</p>
+                  <p>от 4000 Р.</p>
+                </div>
               </div>
-            </div>
+              <div class="catalog-buttons">
+                <a class="button button-detail" href="#">Подробнее</a>
+                <a class="button button-reserv" href="#">Забронировать</a>
+              </div>
+          </div>
             <div class="raiting">
               <ul class="raiting-star">
                 <li></li>
@@ -49,10 +57,6 @@
               </ul>
               <p class="raiting-number">Рейтинг: 9,7</p>
             </div>
-            <div class="catalog-buttons">
-              <a class="button button-detail" href="#">Подробнее</a>
-              <a class="button button-reserv" href="#">Забронировать</a>
-            </div>
             </li>
             <li class="catalog-item">
               <img src="img/desert.jpg" width="135" height="90" alt="Desert Quail Inn">
@@ -60,9 +64,15 @@
                 <h3>
                   <a href="#">Desert Quail Inn</a>
                 </h3>
-                <div class="hotel-price">
-                  <p>Мотель</p>
-                  <p>от 3000 Р.</p>
+                <div class="user-info">
+                  <div class="hotel-price">
+                    <p>Мотель</p>
+                    <p>от 3000 Р.</p>
+                  </div>
+                </div>
+                <div class="catalog-buttons">
+                  <a class="button button-detail" href="#">Подробнее</a>
+                  <a class="button button-reserv" href="#">Забронировать</a>
                 </div>
               </div>
               <div class="raiting">
@@ -73,10 +83,6 @@
                 </ul>
                 <p class="raiting-number">Рейтинг: 8,9</p>
               </div>
-              <div class="catalog-buttons">
-                <a class="button button-detail" href="#">Подробнее</a>
-                <a class="button button-reserv" href="#">Забронировать</a>
-              </div>
             </li>
             <li class="catalog-item">
               <img src="img/villas.jpg" width="135" height="90" alt="Villas at Poco Diablo">
@@ -84,9 +90,15 @@
                 <h3>
                   <a href="#">Villas at Poco Diablo</a>
                 </h3>
-                <div class="hotel-price">
-                  <p>Апартаменты</p>
-                  <p>от 2000 Р.</p>
+                <div class="user-info">
+                  <div class="hotel-price">
+                    <p>Апартаменты</p>
+                    <p>от 2000 Р.</p>
+                  </div>
+                </div>
+                <div class="catalog-buttons">
+                  <a class="button button-detail" href="#">Подробнее</a>
+                  <a class="button button-reserv" href="#">Забронировать</a>
                 </div>
               </div>
               <div class="raiting">
@@ -95,10 +107,6 @@
                   <li></li>
                 </ul>
                 <p class="raiting-number">Рейтинг: 9,2</p>
-              </div>
-              <div class="catalog-buttons">
-                <a class="button button-detail" href="#">Подробнее</a>
-                <a class="button button-reserv" href="#">Забронировать</a>
               </div>
               </li>
         </ul>
@@ -120,5 +128,6 @@
         </a>
       </p>
     </footer>
+  </div>
   </body>
 </html>
