@@ -187,6 +187,10 @@ background-repeat: no-repeat;
   display: block;
 }
 
+.revers {
+  order: -1;
+}
+
 .advantage-list {
   display: flex;
   flex-wrap: wrap;
