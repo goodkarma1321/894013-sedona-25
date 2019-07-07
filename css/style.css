@@ -8,7 +8,8 @@ body {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
-  font-kerning: none;
+  -webkit-font-kerning: none;
+          font-kerning: none;
 
   background-color: #f2f2f2;
 }
@@ -56,14 +57,21 @@ img {
 
   z-index: 1;
 
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+
+      -ms-transform: translateX(-50%);
+
+          transform: translateX(-50%);
 }
 
 .navigation-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 0px 71px ;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .navigation-list li {
@@ -1004,9 +1012,16 @@ bottom: -4px;
   position: absolute;
   bottom: 0;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  align-items: center;
-  box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
   padding: 25px 0;
 
@@ -1032,14 +1047,22 @@ bottom: -4px;
 .footer-social ul {
   list-style: none;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 400px;
   margin: 0;
   padding: 0;
 }
 
 .social-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 46px;
   height: 48px;
@@ -1076,9 +1099,15 @@ bottom: -4px;
 }
 
 .footer-copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0;
 }
 
